@@ -8,6 +8,7 @@ Serene Audio Player is a fully functional beautiful audio player developed in Sw
 
   - Play an mp3 file bundled with the app (Using SereneAudioFilePlayer())
   - Play an mp3 file from an online source (Using SereneAudioStreamPlayer())
+  - Play in background
 
 You can also:
   - Download audio files for offline usage to the user's device by assigning a directory folder name. (experimental)
