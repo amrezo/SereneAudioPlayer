@@ -8,6 +8,9 @@
 import Foundation
 
 public struct Track {
+    
+    public init() {}
+    
     var image: String?
     var title: String?
     var subtitle: String?
