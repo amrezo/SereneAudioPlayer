@@ -9,7 +9,7 @@ import Foundation
 import AVFoundation
 import MediaPlayer
 
-class AVDelegate: NSObject, AVAudioPlayerDelegate{
+public class AVDelegate: NSObject, AVAudioPlayerDelegate{
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         
