@@ -30,6 +30,11 @@ public struct SereneAudioStreamPlayer: View {
     
     @State var isDownloading = false
     
+    public init(track: Track, folderName: String) {
+        self.track = track
+        self.folderName = folderName
+    }
+    
     public var body: some View {
         ZStack {
             

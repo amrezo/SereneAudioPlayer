@@ -24,6 +24,11 @@ public struct SereneAudioFilePlayer: View {
     @State var finish = false
     @State var del = AVDelegate()
     
+    public init(track: Track, folderName: String) {
+        self.track = track
+        self.folderName = folderName
+    }
+    
     public var body: some View {
         ZStack {
             

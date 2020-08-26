@@ -11,7 +11,7 @@ import MediaPlayer
 
 extension AVPlayer {
     
-    var isPlaying: Bool {
+    public var isPlaying: Bool {
         if (self.rate != 0 && self.error == nil) {
             return true
         } else {
