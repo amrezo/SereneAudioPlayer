@@ -9,12 +9,20 @@ import Foundation
 
 public struct Track {
     
-    public init() {}
-    
     var image: String?
     var title: String?
     var subtitle: String?
     var recording: String?
     var streamURL: String?
     var favourited: Bool?
+    
+    public init(image: String, title: String, subtitle: String, recording: String, streamURL: String, favourited: Bool) {
+        self.image = image
+        self.title = title
+        self.subtitle = subtitle
+        self.recording = recording
+        self.streamURL = streamURL
+        self.favourited = favourited
+        
+    }
 }
