@@ -10,7 +10,7 @@ import AVFoundation
 import MediaPlayer
 import ActivityIndicatorView
 
-struct SereneAudioStreamPlayer: View {
+public struct SereneAudioStreamPlayer: View {
     
     @Environment(\.presentationMode) var presentationMode
     
@@ -30,7 +30,7 @@ struct SereneAudioStreamPlayer: View {
     
     @State var isDownloading = false
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             
             // Background Image of current track

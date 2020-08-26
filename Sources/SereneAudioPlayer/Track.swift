@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Track {
+public struct Track {
     var image: String?
     var title: String?
     var subtitle: String?

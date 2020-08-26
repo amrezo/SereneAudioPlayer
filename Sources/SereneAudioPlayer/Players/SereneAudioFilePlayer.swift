@@ -5,12 +5,11 @@
 //  Copyright © 2020 Amr Al-Refae. All rights reserved.
 //
 
-
 import SwiftUI
 import AVFoundation
 import MediaPlayer
 
-struct SereneAudioFilePlayer: View {
+public struct SereneAudioFilePlayer: View {
     
     @Environment(\.presentationMode) var presentationMode
     
@@ -25,7 +24,7 @@ struct SereneAudioFilePlayer: View {
     @State var finish = false
     @State var del = AVDelegate()
     
-    var body: some View {
+    public var body: some View {
         ZStack {
             
             // Background Image of current track
