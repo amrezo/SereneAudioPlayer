@@ -14,8 +14,8 @@ public struct SereneAudioStreamPlayer: View {
     
     @Environment(\.presentationMode) var presentationMode
     
-    var track: Track
-    var folderName: String
+    public var track: Track
+    public var folderName: String
     
     @State var trackFavourited: Bool = false
     
