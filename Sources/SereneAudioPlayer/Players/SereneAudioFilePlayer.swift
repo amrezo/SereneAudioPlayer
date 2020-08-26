@@ -234,7 +234,7 @@ public struct SereneAudioFilePlayer: View {
                 .onAppear {
                     let documentsUrl =  FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask).first! as URL
                     let documentsFolderUrl = documentsUrl.appendingPathComponent(self.folderName)
-                    let destinationUrl = documentsFolderUrl.appendingPathComponent(self.track.recording ?? "")
+                    let destinationUrl = documentsFolderUrl.appendingPathComponent(self.track.recording!)
                     
                     self.player = try! AVAudioPlayer(contentsOf: destinationUrl)
                     
