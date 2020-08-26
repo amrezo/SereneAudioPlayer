@@ -2,7 +2,7 @@
 
 Serene Audio Player is a fully functional beautiful audio player developed in SwiftUI. It can play live streams from URLs as well as local bundled files located in a specific folder directory.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.png | width=250)
 
 ### Features!
 
@@ -45,7 +45,7 @@ var track: Track = Track(image: "nature", title: "Test Track", subtitle: "Subtit
 
 4) Use ```SereneAudioFilePlayer()``` for playing a local file, or ```SereneAudioStreamPlayer()``` to play a streamed mp3 file online.
 
-5) Be sure to include the Track object and a folder name for the directory to be created when a user downloads the track for offline usage. For example, using the previously created ```track```, add the follwoing inside your content view body: 
+5) Be sure to include the Track object and a folder name for the directory to be created when a user downloads the track for offline usage. For example, using the previously created ```track```, add the following inside your content view body: 
 
 ```swift
 SereneAudioFilePlayer(track: track, folderName: "Music")
